@@ -131,21 +131,7 @@ _\* They're usually caused by incorrect contract addresses and wrong default gas
 - Lazyload for NFTs images and metadata
 - Add support for custom ERC20 tokens as payment (started on [#2](https://github.com/Markkop/nft-marketplace/pull/2))
 
-# Troubleshooting
 
-## Mumbai marketplace setup command is breaking with a 'estimate gas failed' error
-
-Try changing `hardhat.config.js` mumbai gas values.  
-I'm using the ones I've found here:  
-https://forum.moralis.io/t/deploy-to-polygon-matic-mumbai-fails/700
-
-## Nouce is too high
-
-Reset your Metamask account transaction history.  
-Find out more on:  
-https://medium.com/@thelasthash/solved-nonce-too-high-error-with-metamask-and-hardhat-adc66f092cd
-
-# References
 
 - [FreeCodeCamp’s Solidity, Blockchain, and Smart Contract Course](https://www.youtube.com/watch?v=M576WGiDBdQ)
 - [Building a Full Stack NFT Marketplace on Ethereum with Polygon](https://dev.to/dabit3/building-scalable-full-stack-apps-on-ethereum-with-polygon-2cfb)
